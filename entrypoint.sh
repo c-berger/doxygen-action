@@ -28,6 +28,11 @@ if [ "$BUILD_LATEX" = true ] ; then
 fi
 apk add $PACKAGES
 
+
+doxygen -v
+dot -V
+dia -v
+
 # run "regular" doxygen
 doxygen $1
 
