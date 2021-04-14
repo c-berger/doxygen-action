@@ -22,7 +22,7 @@ else
   BUILD_LATEX=0
 fi
 
-PACKAGES="doxygen graphviz ttf-freefont"
+PACKAGES="doxygen graphviz ttf-freefont dia"
 if [ "$BUILD_LATEX" = true ] ; then
   PACKAGES="$PACKAGES perl build-base texlive-full biblatex ghostscript"
 fi
